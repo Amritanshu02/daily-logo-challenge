@@ -1,5 +1,5 @@
 body{
-  height: 200vh;
+  height: 100vh;
   background-image:url('bg.jpg');
   background-position: top;
   background-size: cover;
@@ -25,5 +25,25 @@ h1{
 
 img{
   max-width: 14vw;
-  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: 0.3s;
+  margin-bottom: 1.5vw;
+  margin-top: 1.5vw;
+  filter: blur(1.5px);
+
+}
+
+img:hover{
+  margin-bottom: 0px;
+  margin-top: 0px;
+  max-width: 17vw;
+  transition: 0.3s;
+  filter: blur(0px);
+}
+
+.lastcontainer{
+  justify-content: center;
+  display: flex;
+  padding-bottom: 200px;
 }
