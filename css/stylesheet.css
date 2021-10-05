@@ -1,0 +1,29 @@
+body{
+  height: 200vh;
+  background-image:url('bg.jpg');
+  background-position: top;
+  background-size: cover;
+}
+
+h1{
+  font-family: 'Merienda', cursive;
+  color: #FADCD9;
+  font-size: 500%;
+  text-shadow: 2px 2.5px #F79489;
+}
+
+.rows{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+img{
+  max-width: 14vw;
+  padding: 20px;
+}
